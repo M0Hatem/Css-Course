@@ -1,0 +1,50 @@
+body {
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  line-height: 1.4;
+
+  position: relative;
+}
+article {
+  border: 5px solid #000000;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgb(150, 150, 151);
+}
+.price {
+  font-size: 25px;
+}
+.cart {
+  background-color: rgb(0, 0, 0);
+  border: none;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.cart :hover {
+  background-color: white;
+  color: #000000;
+}
+a:link {
+  font-size: 20px;
+
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(53, 139, 214);
+}
+.shipping {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #777;
+  font-weight: bold;
+}
+.details-list {
+  list-style: square;
+}
